@@ -1,0 +1,54 @@
+.header__navbar{
+    width: 24px;
+    height: 24px;
+    background-image: url("../site/static/img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.header-class{
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__img{
+    padding: 1em;
+}
+
+.menu-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 65vw;
+}
+
+.container__button:checked ~ .menu-list {
+    display: block;
+}
+
+.menu-list__title,
+.menu-list__iten {
+    padding: 1em;
+    background-color: var(--white);
+}
+
+.menu-list__title {
+    color: var(--orange);
+}
+
+.menu-list__link {
+    background: var(--pers-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
