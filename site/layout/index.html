@@ -43,8 +43,9 @@
          <input type="search" class="banner__search" placeholder="O que procura ?">
     </section>
 
-    <!--Carousel Section-->
+    
     <section class="carousel">
+        <!--Carousel Section-->
         <h2 class="carousel__title">Lançamentos</h2>
         <!-- Slider main container -->
         <div class="swiper">
@@ -62,7 +63,78 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
+
+        <!--Card Section-->
+        <div class="card">
+            <!--  Line 1 -->
+            <div class="card__description">
+                <!-- Column 1 -->
+                <div class="description">
+                    <h3 class="description__title">Talvez você se interesse por ...</h3>
+                    <h2 class="description__title-book">Angular l1 e Firebase</h2>
+                    <p class="description__text">Construindo aplicação integrada com a plataforma google</p>
+                </div>
+                <!-- Column 2 -->
+                <img class="description__img" src="../static/img/Angular.png" alt="">
+            </div>
+            <!-- Line 2 -->
+            <div class="card__buttons">
+                <ul class="buttons">
+                    <li class="buttons__itens"><img src="../static/img/Favoritos.svg" alt="favoritos"></li>
+                    <li class="buttons__itens"><img src="../static/img/Compras.svg" alt="Comprar"></li>
+                </ul>
+                <!-- Column 2 -->
+                <a href="a" class="buttons__anchor">saiba mais</a>
+            </div>
+        </div>
     </section>
+
+    <section class="carousel">
+        <!--Carousel Section-->
+        <h2 class="carousel__title">Populares</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="../static/img/Guia Front-end.png" alt="Book 01"></div>
+                <div class="swiper-slide"><img src="../static/img/Liderança.png" alt="Book 02"></div>
+                <div class="swiper-slide"><img src="../static/img/ApacheKafka.png" alt="Book 03"></div>
+                <div class="swiper-slide"><img src="../static/img/Javascript.png" alt="Book 04"></div>  
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <!--Card Section-->
+        <div class="card">
+            <!--  Line 1 -->
+            <div class="card__description">
+                <!-- Column 1 -->
+                <div class="description">
+                    <h3 class="description__title">Talvez você se interesse por ...</h3>
+                    <h2 class="description__title-book">Angular l1 e Firebase</h2>
+                    <p class="description__text">Construindo aplicação integrada com a plataforma google</p>
+                </div>
+                <!-- Column 2 -->
+                <img class="description__img" src="../static/img/Angular-2.png" alt="">
+            </div>
+            <!-- Line 2 -->
+            <div class="card__buttons">
+                <ul class="buttons">
+                    <li class="buttons__itens"><img src="../static/img/Favoritos.svg" alt="favoritos"></li>
+                    <li class="buttons__itens"><img src="../static/img/Compras.svg" alt="Comprar"></li>
+                </ul>
+                <!-- Column 2 -->
+                <a href="a" class="buttons__anchor">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+
 
     <!--Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
