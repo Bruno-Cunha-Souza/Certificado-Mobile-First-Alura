@@ -2,6 +2,7 @@
 @import url("banner.css");
 @import url("carousel.css");
 @import url("cards.css");
+@import url("topics.css");
 
 :root {
     --background-color: #EBECEE;
